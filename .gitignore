@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.Python
+
+# Virtual envs
+.venv/
+venv/
+
+# Local runtime artifacts
+streamlit.*.log
+uploads/
+uploads_tmp/
+vector_db/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+
+# Secrets (note: if .env is tracked upstream, ignoring won't untrack it)
+.env
+
